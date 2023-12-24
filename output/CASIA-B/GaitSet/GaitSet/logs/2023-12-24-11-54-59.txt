@@ -1,0 +1,13 @@
+[2023-12-24 11:54:59] [INFO]: {'enable_float16': False, 'restore_ckpt_strict': True, 'restore_hint': 40000, 'save_name': 'GaitSet', 'eval_func': 'evaluate_indoor_dataset', 'sampler': {'batch_size': 16, 'sample_type': 'all_ordered', 'type': 'InferenceSampler'}, 'transform': [{'type': 'BaseSilCuttingTransform'}], 'metric': 'euc', 'cross_view_gallery': False}
+[2023-12-24 11:54:59] [INFO]: {'model': 'GaitSet', 'in_channels': [1, 32, 64, 128], 'SeparateFCs': {'in_channels': 128, 'out_channels': 256, 'parts_num': 62}, 'bin_num': [16, 8, 4, 2, 1]}
+[2023-12-24 11:55:00] [INFO]: {'dataset_name': 'CASIA-B', 'dataset_root': '/root/autodl-tmp/CASIA-B-pkl', 'num_workers': 1, 'dataset_partition': './datasets/CASIA-B/CASIA-B.json', 'remove_no_gallery': False, 'cache': False, 'test_dataset_name': 'CASIA-B'}
+[2023-12-24 11:55:00] [INFO]: -------- Test Pid List --------
+[2023-12-24 11:55:00] [INFO]: [075, 076, ..., 124]
+[2023-12-24 11:55:01] [INFO]: Restore Parameters from output/CASIA-B/GaitSet/GaitSet/checkpoints/GaitSet-40000.pt !!!
+[2023-12-24 11:55:02] [INFO]: Parameters Count: 2.59459M
+[2023-12-24 11:55:02] [INFO]: Model Initialization Finished!
+[2023-12-24 11:55:35] [INFO]: ===Rank-1 (Exclude identical-view cases)===
+[2023-12-24 11:55:35] [INFO]: NM@R1: [91.70 98.70 99.30 98.00 94.60 92.90 96.60 97.80 99.00 98.80 90.20]
+[2023-12-24 11:55:35] [INFO]: BG@R1: [88.70 94.30 94.80 93.13 86.30 82.70 86.90 91.60 95.40 95.05 85.00]
+[2023-12-24 11:55:35] [INFO]: CL@R1: [71.60 81.70 82.80 78.70 71.50 71.00 72.20 75.40 77.50 76.70 63.10]
+[2023-12-24 11:55:35] [INFO]: NM@R1: 96.15%	BG@R1: 90.35%	CL@R1: 74.75%	

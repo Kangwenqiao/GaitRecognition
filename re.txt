@@ -1,0 +1,13 @@
+pip install torch==1.13.1 
+pip install torchvision
+
+pip install pyyaml==6.0
+pip install tensorboard==2.6.0
+pip install opencv-python==4.7.0.72
+pip install tqdm==4.61.2
+pip install py7zr==0.20.4
+pip install kornia==0.6.12  
+   pip uninstall torch
+   pip install torch==1.13.1
+pip install einops ==0.7.0
+pip install typing-extensions==4.3.0
