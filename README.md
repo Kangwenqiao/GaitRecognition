@@ -25,8 +25,8 @@ For communication or inquiries, please contact:
 To begin using this project, follow these steps:
 
 ### Installation
-1. Clone the repository: `git clone https://github.com/your-username/your-repository.git`
-2. Navigate to the project directory: `cd your-repository`
+1. Clone the repository: `git clone https://github.com/your-username/your-repository.git](https://github.com/Kangwenqiao/GaitRecognition.git`
+2. Navigate to the project directory: `cd GaitRecognition`
 3. Install dependencies: `pip install -r requirements.txt`
 
 ## License
